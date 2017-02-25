@@ -38,7 +38,7 @@ function createTemplate(data){
             <html>
             <head>
             <title>
-              {title}
+              ${title}
             </title>
             
             <link href="/ui/style.css" rel="stylesheet" />
@@ -52,14 +52,14 @@ function createTemplate(data){
               </div>
               <hr/>
               <h3>
-                {heading}
+                ${heading}
               </h3>
               <div>
-                  {date}
+                  ${date}
               </div>
                 
                   <div>
-                  {content}
+                 ${content}
                   </div>
              </div>
             </body>
