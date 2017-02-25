@@ -9,7 +9,7 @@
             res.sendFile(path.join(__dirname, 'ui', 'index.html'));
             });
             
-            var article one ={
+            var articleone = {
             title:'Article one | Prasad K G',
             heading:'Article One',
             date: 'Feb 21, 2017',
