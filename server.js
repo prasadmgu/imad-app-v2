@@ -8,8 +8,8 @@
             app.get('/', function (req, res) {
             res.sendFile(path.join(__dirname, 'ui', 'index.html'));
             });
-            
-            var articleone = {
+            var articles ={
+             'article-one' : {
             title:'Article one | Prasad K G',
             heading:'Article One',
             date: 'Feb 21, 2017',
@@ -24,8 +24,40 @@
                      This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
                   </p>
             `
+            },
+             'article-two' : {
+                  title:'Article two | Prasad K G',
+            heading:'Article Two',
+            date: 'Feb 22, 2017',
+            content:`
+                  <p>
+                     This is Second article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
+                  </p>
+                   <p>
+                     This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
+                  </p>
+                   <p>
+                     This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
+                  </p>
+            `
+            },
+             'article-three' :{
+                  title:'Article Three | Prasad K G',
+            heading:'Article Three',
+            date: 'Feb 23, 2017',
+            content:`
+                  <p>
+                     This is third article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
+                  </p>
+                   <p>
+                     This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
+                  </p>
+                   <p>
+                     This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
+                  </p>
+            `
+            }
             };
-
 
 function createTemplate(data){
     var title=data.title;
@@ -69,7 +101,8 @@ function createTemplate(data){
 ;   
 return htmlTemplate;
 }
-app.get('/article-one', function (req,res){
+app.get('/.articleName', function (req,res){
+    var articleName=req.params.articleName;
     res.send(createTemplate(articleone));
 });
 app.get('/article-two', function (req,res){
