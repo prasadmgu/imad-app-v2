@@ -62,16 +62,21 @@
             heading:'Profile',
             date: 'Feb 23, 2017',
             content:`
-                  <p>
-                     This is third article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
-                  </p>
-                   <p>
-                     This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
-                  </p>
-                   <p>
-                     This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
-                  </p>
-            `
+                 <Image src="..\..\kgpnps.jpg" width=100px,height=150px />
+
+ <hr>
+ <body>
+ <dev>
+ <ol>
+ <li><b> Name : Prasad K G</b></li>
+ <li> Address</li>
+ <ul><li> Gayathri</li>
+ <li>Kumaranaloor P O</li>
+ <li> Kottayam</li></ul>
+ <li> e-mail: prasad_kg1@yahoo.co.in</li/>
+
+</ol>
+</dev>
             },
             };
 
