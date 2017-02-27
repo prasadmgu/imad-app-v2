@@ -63,7 +63,7 @@
             date: 'Feb 23, 2017',
             content:`
              <div class="center">
-            <img src="/ui/kgpnps.jpg" width="100" heighi="150"/>
+            <img src="/ui/kgpnps.jpg" width="100" heighi="150" alt="This is my photo"/>
             </div>
  <hr>
  
