@@ -62,10 +62,10 @@
             heading:'Profile',
             date: 'Feb 23, 2017',
             content:`
-                 <Image src="..\..\kgpnps.jpg" width=100px,height=150px />
+                 <Img src= "/ui/kgpnps.jpg" width=100px,height=150px" />
 
  <hr>
- <body>
+ 
  <dev>
  <ol>
  <li><b> Name : Prasad K G</b></li>
@@ -76,8 +76,8 @@
  <li> e-mail: prasad_kg1@yahoo.co.in</li/>
 
 </ol>
-</dev>
-            },
+
+   `         },
             };
 
 function createTemplate(data){
