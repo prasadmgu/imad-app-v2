@@ -56,7 +56,23 @@
                      This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
                   </p>
             `
-            }
+            },
+            'profile':{
+                  title:'Profile | Prasad K G',
+            heading:'Profile',
+            date: 'Feb 23, 2017',
+            content:`
+                  <p>
+                     This is third article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
+                  </p>
+                   <p>
+                     This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
+                  </p>
+                   <p>
+                     This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article. This is first article.This is first article. This is first article.
+                  </p>
+            `
+            },
             };
 
 function createTemplate(data){
