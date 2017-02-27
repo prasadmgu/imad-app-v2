@@ -62,9 +62,8 @@
             heading:'Profile',
             date: 'Feb 23, 2017',
             content:`
-                // <img src= "/ui/kgpnps.jpg" width=100px,height=150px" />
              <div class="center">
-            <img src="/ui/kgpnps.jpg" class="img-medium"/>
+            <img src="/ui/kgpnps.jpg" width="100" heighi="150"/>
             </div>
  <hr>
  
