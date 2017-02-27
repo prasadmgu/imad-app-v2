@@ -62,11 +62,13 @@
             heading:'Profile',
             date: 'Feb 23, 2017',
             content:`
-                 <Img src= "/ui/kgpnps.jpg" width=100px,height=150px" />
-
+                // <img src= "/ui/kgpnps.jpg" width=100px,height=150px" />
+             <div class="center">
+            <img src="/ui/kgpnps.jpg" class="img-medium"/>
+            </div>
  <hr>
  
- <dev>
+ 
  <ol>
  <li><b> Name : Prasad K G</b></li>
  <li> Address</li>
