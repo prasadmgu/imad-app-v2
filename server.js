@@ -63,11 +63,9 @@
             date: 'Feb 23, 2017',
             content:`
              <div class="center">
-            <img src="/ui/kgpnps.jpg" width="100" height="150" alt="This is my photo"/>
+            <img src="/ui/kgpnps.jpg" alt="This is my photo"/>
             </div>
  <hr>
- 
- 
  <ol>
  <li><b> Name : Prasad K G</b></li>
  <li> Address</li>
